@@ -1,4 +1,6 @@
-FROM python:3.6.9
+# FROM python:3.6.9
+# Python Base Image from https://hub.docker.com/r/arm32v7/python/
+FROM arm32v7/python:3.6.9
 
 # https://community.home-assistant.io/t/ikea-tradfri-gateway-zigbee-very-basic-working-implementation/14788/19?u=balloob
 RUN apt-get update -y && \
